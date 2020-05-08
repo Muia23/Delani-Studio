@@ -1,5 +1,5 @@
 .row-intro {
-  position: relative
+  position: relative;
 }
 .intro-content {
   position: absolute;
@@ -28,10 +28,28 @@
   font-family: Mukta;
   padding: 0 200px 0 200px;
 }
-.row-about h2{
+.row-about h2 {
   font-size: 40px;
   font-weight:100;
 }
-.row-about p{
+.row-about p {
+  font-size: 18px;
+}
+.row-services {
+  position: relative;
+}
+.services-content {
+  position: absolute;
+  text-align: center;
+  top: 120px;
+  padding: 0 200px 0 300px;
+  font-family: Mukta;
+  color: white;
+}
+.services-content h2 {
+  font-size: 40px;
+  font-weight:100;
+}
+.services-content p {
   font-size: 18px;
 }
