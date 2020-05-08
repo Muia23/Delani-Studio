@@ -1,7 +1,7 @@
-.row-intro{
+.row-intro {
   position: relative
 }
-.intro-content{
+.intro-content {
   position: absolute;
   top: 250px;
   right: 450px;
@@ -10,16 +10,28 @@
   font-family: Mukta;
   color: white;
 }
-.intro-content h1{
+.intro-content h1 {
   font-size: 60px;
 }
-.intro-content h3{
+.intro-content h3 {
   font-size: 18px;
 }
-.scroll{
+.scroll {
   position: absolute;
   bottom: 20px;
   right: 450px;
   left: 450px;
   text-align: center;
+}
+.row-about {
+  text-align: center;
+  font-family: Mukta;
+  padding: 0 200px 0 200px;
+}
+.row-about h2{
+  font-size: 40px;
+  font-weight:100;
+}
+.row-about p{
+  font-size: 18px;
 }
