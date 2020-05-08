@@ -8,7 +8,7 @@ This is a remake of an original website by Delani Studio with the aim of practic
 The webpage is a rookie attempt. Feel free to communicate on errors.
 ## Project setup instruction
 The index HTML file can be opened into any local browser if not, kindly alert the Author, which is me.
-Here is a link to the live site()
+Here is a link to the live site(https://muia23.github.io/Delani-Studio/)
 ## License info
 MIT License
 
