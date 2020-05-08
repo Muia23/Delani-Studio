@@ -24,6 +24,7 @@
   text-align: center;
 }
 .row-about {
+  position: relative;
   text-align: center;
   font-family: Mukta;
   padding: 0 200px 0 200px;
@@ -53,16 +54,42 @@
 .services-content p {
   font-size: 18px;
 }
-.row-what-we-do{
+.row-what-we-do {
+  position: relative;
   text-align: center;
-  
+
 }
-.row-what-we-do h2{
+.row-what-we-do h2 {
   font-size: 40px;
   font-weight:100;
 }
-.col{
+.col-md-4{
+  float: left;
+  width: auto;
+}
+.container-fluid1 {
+   display: flex;
+}
+.row-portfolio{
+  position: relative
+  text-align: center;
+}
+.container-fluid2 {
+  display: flex;
+}
+.col-md-3{
   float: left;
   width: 25%;
-  height:100px;
+}
+.row-contact-us {
+  position: relative;
+}
+.contact-content {
+  position: absolute;
+  top: 250px;
+  right: 450px;
+  left: 450px;
+  text-align: center;
+  font-family: Mukta;
+  color: white;
 }
