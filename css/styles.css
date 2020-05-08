@@ -1,0 +1,25 @@
+.row-intro{
+  position: relative
+}
+.intro-content{
+  position: absolute;
+  top: 250px;
+  right: 450px;
+  left: 450px;
+  text-align: center;
+  font-family: Mukta;
+  color: white;
+}
+.intro-content h1{
+  font-size: 60px;
+}
+.intro-content h3{
+  font-size: 18px;
+}
+.scroll{
+  position: absolute;
+  bottom: 20px;
+  right: 450px;
+  left: 450px;
+  text-align: center;
+}
