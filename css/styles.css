@@ -1,3 +1,8 @@
+body{
+  font-family: Mukta;
+  margin: 0;
+  text-align: center;
+}
 .row-intro {
   position: relative;
 }
@@ -7,7 +12,6 @@
   right: 450px;
   left: 450px;
   text-align: center;
-  font-family: Mukta;
   color: white;
 }
 .intro-content h1 {
@@ -26,7 +30,6 @@
 .row-about {
   position: relative;
   text-align: center;
-  font-family: Mukta;
   padding: 0 200px 0 200px;
 }
 .row-about h2 {
@@ -38,13 +41,12 @@
 }
 .row-services {
   position: relative;
+  text-align: center;
 }
 .services-content {
+  padding-left: 290px;
   position: absolute;
-  text-align: center;
   top: 120px;
-  padding: 0 200px 0 300px;
-  font-family: Mukta;
   color: white;
 }
 .services-content h2 {
@@ -57,39 +59,97 @@
 .row-what-we-do {
   position: relative;
   text-align: center;
-
+  padding-bottom: 20px;
 }
 .row-what-we-do h2 {
   font-size: 40px;
   font-weight:100;
 }
-.col-md-4{
+.row-what-we-do h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.collapsible{
+  font-size:18px;
+  text-align: center;
+  display: none;
+  padding: 0 135px 0 135px;
+}
+.action {
   float: left;
-  width: auto;
+  width: 33.33%;
 }
 .container-fluid1 {
    display: flex;
 }
 .row-portfolio{
-  position: relative
+  position: relative;
   text-align: center;
+}
+.row-portfolio h2{
+  font-size: 40px;
+  font-weight:100;
 }
 .container-fluid2 {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  padding: 0 10px 0 10px;
 }
-.col-md-3{
-  float: left;
-  width: 25%;
+.portfolio-row{
+  padding-bottom: 20px;
 }
+.img-fluid{
+  padding-left: 10px;
+}
+
 .row-contact-us {
   position: relative;
 }
 .contact-content {
   position: absolute;
-  top: 250px;
-  right: 450px;
-  left: 450px;
-  text-align: center;
+  top: 50px;
+  /*text-align: center;*/
   font-family: Mukta;
   color: white;
+  justify-content: center;
+}
+.row-contact-us h2 {
+  font-size: 30px;
+  font-weight:100;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.name-form-control{
+  width:410px;
+  color: white;
+  background: transparent;
+  margin-left: 300px;
+}
+.email-form-control{
+  width:410px;
+  color: white;
+  background: transparent;
+  margin-right;: 330px;
+}
+.comment-form-control{
+  width: 830px;
+  color: white;
+  background: transparent;
+  margin-left:335px;
+  margin-top: 24px;
+  padding-bottom:215px;
+}
+.row-socials{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  padding: 40px;
+}
+.copyright{
+  text-align: center;
 }
