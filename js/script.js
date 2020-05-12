@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
   $("#action1").click(function(){
     $("#collapsible1").show();
     $("#action1").hide();
@@ -27,4 +26,17 @@ $(document).ready(function(){
     $("#collapsible3").hide();
   });
 
+});
+
+$(document).ready(function(){
+  $("form#response").submit(function(event){
+    const name = $("input#MERGE1").val();
+    const email = $("input#MERGE0").val();
+    const message =$("input#MERGE6").val();
+    if ($("input#MERGE1").val() && $("input#MERGE0").val()){
+      alert ( name + " we have received your message. Thank you for reaching out to us");
+    } else {
+      alert("Please enter your name and email");
+    }
+  });
 });
