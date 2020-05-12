@@ -111,8 +111,6 @@ body{
 .contact-content {
   position: absolute;
   top: 50px;
-  /*text-align: center;*/
-  font-family: Mukta;
   color: white;
   justify-content: center;
 }
@@ -142,14 +140,10 @@ body{
   margin-top: 24px;
   padding-bottom:215px;
 }
-.row-socials{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: space-between;
-  padding: 40px;
+.footer p {
+  letter-spacing: 20px;
+  padding-top: 40px;
 }
 .copyright{
-  text-align: center;
+  padding-top: 40px;
 }
