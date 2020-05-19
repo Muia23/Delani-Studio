@@ -1,76 +1,81 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
   font-family: Mukta;
   margin: 0;
   text-align: center;
 }
+h2 {
+  font-size: 35px;
+  font-weight:100;
+}
 /*intro*/
-.landing-page {
+.landing {
+  position:relative;
+}
+.landing-container {
   position: relative;
-  background-image:url("/home/willy/Desktop/DelaniStudio/images/backgrounds/h_img.jpg");
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
+  text-align: centre;
+  color: inherit;
 }
-.intro-content {
+.centered {
   position: absolute;
-  top: 250px;
-  right: 450px;
-  left: 450px;
-  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered h1 {
   color: white;
-}
-.intro-content h1 {
   font-size: 60px;
+  padding-top: 40px;
 }
-.intro-content h3 {
-  font-size: 18px;
+.centered h2 {
+  color: white;
+  font-size: 60px;
+  padding-top: 20px;
 }
-.scroll {
+.centered h3 {
+  color: white;
+  font-size: 20px;
+}
+/*scroll*/
+.scroll-down {
   position: absolute;
-  bottom: 20px;
-  right: 450px;
-  left: 450px;
-  text-align: center;
+  top: 520px;
 }
-.row-about {
+
+/*about*/
+.about {
   position: relative;
   text-align: center;
   padding: 0 200px 0 200px;
 }
-.row-about h2 {
-  font-size: 40px;
-  font-weight:100;
-}
-.row-about p {
+
+.about p {
   font-size: 18px;
 }
-.row-services {
+
+/*services*/
+.services {
   position: relative;
-  text-align: center;
 }
-.services-content {
-  padding-left: 290px;
-  position: absolute;
-  top: 120px;
+.services h2 {
+  font-size: 35px;
   color: white;
 }
-.services-content h2 {
-  font-size: 40px;
-  font-weight:100;
-}
-.services-content p {
+
+.services p {
   font-size: 18px;
+  color: white;
 }
-.row-what-we-do {
+.what-we-do {
   position: relative;
   text-align: center;
   padding-bottom: 20px;
 }
-.row-what-we-do h2 {
-  font-size: 40px;
-  font-weight:100;
-}
-.row-what-we-do h4 {
+
+.what-we-do h4 {
   font-size: 20px;
   font-weight: bold;
 }
@@ -87,86 +92,68 @@ body{
 .container-fluid1 {
    display: flex;
 }
-.row-portfolio{
+.portfolio{
   position: relative;
   text-align: center;
 }
-.row-portfolio h2{
-  font-size: 40px;
-  font-weight:100;
-}
+
 .container-fluid2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: center;￼
+DELANI
   align-content: space-between;
-  padding: 0 10px 0 10px;
+  padding: 0 200px 0 200px;
 }
 .grid-area{
   overflow: hidden;
 }
-/*.portfolio-col ul {
-  float:left;
-  overflow: hidden;
-  width: 700px;
-  position:relative;
-}
-.portfolio-col li {
-  float: left;
-  line-height: 17px;
-  color: #686f74;
-  list-style: none;
-  overflow: hidden;
-  margin-bottom: 23px;
-  margin-right: 23px;
-  text-align: center;
-}*/
-
-.img-fluid{
-  padding-left: 10px;
+.col-lg-3{
+  padding: 30px;
 }
 
-.row-contact-us {
+
+.contact-us {
   position: relative;
 }
-.contact-content {
+.contact-centered {
   position: absolute;
-  top: 50px;
-  color: white;
-  justify-content: center;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.row-contact-us h2 {
-  font-size: 30px;
-  font-weight:100;
-  text-align: center;
-  padding-bottom: 20px;
+
+.name{
+  padding-right: 30px;
 }
 .name-form-control{
-  width:410px;
+  width: 400px;
   color: white;
   background: transparent;
-  margin-left: 300px;
+  border: 1px solid white;
+  placeholder-color: white;
 }
 .email-form-control{
-  width:410px;
+  width: 400px;
   color: white;
   background: transparent;
-  margin-right;: 330px;
+  border: 1px solid white;
 }
 .comment-form-control{
   width: 830px;
+  height: 250px;
   color: white;
   background: transparent;
-  margin-left:335px;
-  margin-top: 24px;
-  padding-bottom:215px;
+  border-color: white;
 }
-.footer p {
+
+
+.socials p {
   letter-spacing: 20px;
   padding-top: 40px;
 }
-.copyright{
+.footer{
   padding-top: 40px;
 }
 
