@@ -40,3 +40,10 @@ $(document).ready(function(){
     }
   });
 });
+$(document).ready(function(){
+    $("li#portfoio").mouseover(function(){
+      $(this).show("article#da-animate");
+    }).mouseout(function(){
+      $(this).hide("article#da-animate");
+    })
+});

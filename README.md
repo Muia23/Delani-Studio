@@ -6,6 +6,11 @@
 ## Project description
 This is a remake of an original website by Delani Studio with the aim of practicing and enhance my understanding on Bootstrap and jQuery concepts.
 The webpage is a rookie attempt. Feel free to communicate on errors.
+## BDD
+Our contact for works on the following principles:
+1.Name should be input before submitting.
+2.Email should also be input in correct syntax before submiting.
+3.A comment must be input inorder to submit.
 ## Project setup instruction
 The index HTML file can be opened into any local browser if not, kindly alert the Author, which is me.
 Here is a link to the live site(https://muia23.github.io/Delani-Studio/)
